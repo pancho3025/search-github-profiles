@@ -23,14 +23,17 @@ container.addEventListener("submit", (e) => {
 
 function crearTarjeta(usuario) {
   let tarjeta;
+  
   if (usuario.name !== undefined) {
     tarjeta = `
   <div class="tarjeta">
     <div>
+    <a href="${usuario.html_url}" target="_blank">
           <img
             class="avatar"
             src="${usuario.avatar_url}"
           />
+          </a>
         </div>
         <div class="user">
           <h2 class="name">${usuario.name || usuario.login}</h2>
