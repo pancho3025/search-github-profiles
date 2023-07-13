@@ -1,4 +1,4 @@
-# search-github-profiles
+# Search Github profiles
 
 Simple app to search for Github users, using Github API.
 
